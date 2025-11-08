@@ -35,41 +35,77 @@ public class Vizitka {
         this.jmeno = Objects.requireNonNull(jmeno);
     }
 
-    public String getFirma() {
+    /*public String getFirma() {
         return firma;
+    }*/
+    public String getFirma() {
+        if (firma == null) {
+            return "";
+        } else {
+            return firma;
+        }
     }
 
     public void setFirma(String firma) {
         this.firma = Objects.requireNonNull(firma);
     }
 
-    public String getUlice() {
+    /*public String getUlice() {
         return ulice;
+    }*/
+    public String getUlice() {
+        if (ulice == null) {
+            return "";
+        } else {
+            return ulice;
+        }
+
     }
 
     public void setUlice(String ulice) {
         this.ulice = Objects.requireNonNull(ulice);
     }
 
+    //public String getObecPsc() {return obecPsc;}
     public String getObecPsc() {
-        return obecPsc;
+        if (obecPsc == null) {
+            return "";
+        } else {
+            return obecPsc;
+        }
+
     }
 
     public void setObecPsc(String obecPsc) {
         this.obecPsc = Objects.requireNonNull(obecPsc);
     }
 
+    //public String getEmail() {return email;}
     public String getEmail() {
-        return email;
+        if (email == null) {
+            return "";
+        } else {
+            return email;
+        }
+
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public String getTelefon() {
+    /*public String getTelefon() {
         return telefon;
+    }*/
+    public String getTelefon() {
+        if (telefon == null) {
+            return "";
+        } else {
+            return telefon;
+        }
+
     }
+
 
     public void setTelefon(String telefon) {
         this.telefon = telefon;
